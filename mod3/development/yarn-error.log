@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add selint-config-standard@14.1.1 eslint-plugin-standard --dev
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.2.1.0_x64__8wekyb3d8bbwe;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\LLVM\bin;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X64\;C:\Program Files (x86)\Pulse Secure\VC142.CRT\X86\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\USER\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\USER\AppData\Local\Programs\Python\Python39\;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\USER\.dotnet\tools;C:\Users\USER\AppData\Local\GitHubDesktop\bin;C:\Users\USER\AppData\Local\Programs\Microsoft VS Code\bin;;C:\intelFPGA\20.1\modelsim_ase\win32aloem;C:\intelFPGA_lite\20.1\modelsim_ase\win32aloem;C:\intelFPGA_lite\20.1\modelsim_ae\win32aloem;D:\intel_lite\modelsim_ase\win32aloem;D:\intel_lite\modelsim_ae\win32aloem;C:\iverilog\bin;C:\iverilog\gtkwave\bin;C:\Users\USER\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/selint-config-standard: Not found
+      at Request.params.callback [as _callback] (C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\USER\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "kiosk-food-order",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "npm i && vue-cli-service serve",
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "core-js": "^3.13.1",
+      "vue": "^3.0.0",
+      "vuex": "^4.0.1"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^4.25.0",
+      "@typescript-eslint/parser": "^4.25.0",
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-plugin-eslint": "~4.5.0",
+      "@vue/cli-plugin-typescript": "~4.5.0",
+      "@vue/cli-plugin-vuex": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "@vue/compiler-sfc": "^3.0.0",
+      "@vue/eslint-config-typescript": "^7.0.0",
+      "eslint": "^6.7.2",
+      "eslint-plugin-vue": "^7.10.0",
+      "image-webpack-loader": "^7.0.1",
+      "sass": "^1.26.5",
+      "sass-loader": "^8.0.2",
+      "typescript": "~4.1.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
